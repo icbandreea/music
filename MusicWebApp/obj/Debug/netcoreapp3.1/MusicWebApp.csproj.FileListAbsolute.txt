@@ -1,0 +1,10 @@
+C:\Users\Andreea Iacob\Source\Repos\icbandreea\music\MusicWebApp\bin\Debug\netcoreapp3.1\appsettings.Development.json
+C:\Users\Andreea Iacob\Source\Repos\icbandreea\music\MusicWebApp\bin\Debug\netcoreapp3.1\appsettings.json
+C:\Users\Andreea Iacob\Source\Repos\icbandreea\music\MusicWebApp\bin\Debug\netcoreapp3.1\Properties\launchSettings.json
+C:\Users\Andreea Iacob\Source\Repos\icbandreea\music\MusicWebApp\bin\Debug\netcoreapp3.1\MusicWebApp.exe
+C:\Users\Andreea Iacob\Source\Repos\icbandreea\music\MusicWebApp\obj\Debug\netcoreapp3.1\MusicWebApp.csprojAssemblyReference.cache
+C:\Users\Andreea Iacob\Source\Repos\icbandreea\music\MusicWebApp\obj\Debug\netcoreapp3.1\MusicWebApp.AssemblyInfoInputs.cache
+C:\Users\Andreea Iacob\Source\Repos\icbandreea\music\MusicWebApp\obj\Debug\netcoreapp3.1\MusicWebApp.AssemblyInfo.cs
+C:\Users\Andreea Iacob\Source\Repos\icbandreea\music\MusicWebApp\obj\Debug\netcoreapp3.1\MusicWebApp.RazorTargetAssemblyInfo.cache
+C:\Users\Andreea Iacob\Source\Repos\icbandreea\music\MusicWebApp\obj\Debug\netcoreapp3.1\staticwebassets\MusicWebApp.StaticWebAssets.Manifest.cache
+C:\Users\Andreea Iacob\Source\Repos\icbandreea\music\MusicWebApp\obj\Debug\netcoreapp3.1\staticwebassets\MusicWebApp.StaticWebAssets.xml

@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "E:\\IBM summer school 2020\\MusicWebApp\\MusicWebApp\\MusicWebApp.csproj": {}
+    "C:\\Users\\Andreea Iacob\\Source\\Repos\\icbandreea\\music\\MusicWebApp\\MusicWebApp.csproj": {}
   },
   "projects": {
-    "E:\\IBM summer school 2020\\MusicWebApp\\MusicWebApp\\MusicWebApp.csproj": {
+    "C:\\Users\\Andreea Iacob\\Source\\Repos\\icbandreea\\music\\MusicWebApp\\MusicWebApp.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\IBM summer school 2020\\MusicWebApp\\MusicWebApp\\MusicWebApp.csproj",
+        "projectUniqueName": "C:\\Users\\Andreea Iacob\\Source\\Repos\\icbandreea\\music\\MusicWebApp\\MusicWebApp.csproj",
         "projectName": "MusicWebApp",
-        "projectPath": "E:\\IBM summer school 2020\\MusicWebApp\\MusicWebApp\\MusicWebApp.csproj",
+        "projectPath": "C:\\Users\\Andreea Iacob\\Source\\Repos\\icbandreea\\music\\MusicWebApp\\MusicWebApp.csproj",
         "packagesPath": "C:\\Users\\Andreea Iacob\\.nuget\\packages\\",
-        "outputPath": "E:\\IBM summer school 2020\\MusicWebApp\\MusicWebApp\\obj\\",
+        "outputPath": "C:\\Users\\Andreea Iacob\\Source\\Repos\\icbandreea\\music\\MusicWebApp\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -40,6 +40,12 @@
       },
       "frameworks": {
         "netcoreapp3.1": {
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[3.1.5, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
