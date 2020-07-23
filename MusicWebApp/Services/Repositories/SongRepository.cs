@@ -1,9 +1,8 @@
-﻿using MusicWebApp.Context;
+﻿using Microsoft.EntityFrameworkCore;
+using MusicWebApp.Context;
 using MusicWebApp.Entities;
 using System;
-using System.Collections.Generic;
 using System.Linq;
-using System.Threading.Tasks;
 
 namespace MusicWebApp.Services.Repositories
 {
@@ -19,9 +18,9 @@ namespace MusicWebApp.Services.Repositories
         //Aici nu inteleg de ce nu face legatura
         public Song GetSongDetails(Guid songId)
         {
-            return _context.Music
+            return _context.Songs
                 .Where(b => b.Id == songId && (b.Deleted == false || b.Deleted == null))
-                .Include(b => b.Author)
+                .Include(b => b.Artist)
                 .FirstOrDefault();
         }
     }

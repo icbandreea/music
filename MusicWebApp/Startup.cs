@@ -1,11 +1,7 @@
 using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
 using AutoMapper;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
-using Microsoft.AspNetCore.Http;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
@@ -30,6 +26,9 @@ namespace MusicWebApp
             //Adding services
             services.AddScoped<IUserRepository, UserRepository>();
             services.AddScoped<IUserUnitOfWork, UserUnitOfWork>();
+            services.AddScoped<IArtistRepository, ArtistRepository>();
+            services.AddScoped<ISongRepository, SongRepository>();
+            services.AddScoped<ISongUnitOfWork, SongUnitOfWork>();
 
 
 

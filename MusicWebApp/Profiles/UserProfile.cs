@@ -1,8 +1,8 @@
 ﻿using AutoMapper;
 
-namespace MusicWebApp.Services.Profiles
+namespace MusicWebApp.Profiles
 {
-    public class UserProfile : Profile
+    public class UserProfile: Profile
     {
         public UserProfile()
         {
