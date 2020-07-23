@@ -53,3 +53,4 @@ C:\Users\Andreea Iacob\Source\Repos\icbandreea\music\MusicWebApp\bin\Debug\netco
 C:\Users\Andreea Iacob\Source\Repos\icbandreea\music\MusicWebApp\bin\Debug\netcoreapp3.1\AutoMapper.Extensions.Microsoft.DependencyInjection.dll
 C:\Users\Andreea Iacob\Source\Repos\icbandreea\music\MusicWebApp\obj\Debug\netcoreapp3.1\MusicWebApp.dll
 C:\Users\Andreea Iacob\Source\Repos\icbandreea\music\MusicWebApp\obj\Debug\netcoreapp3.1\MusicWebApp.pdb
+C:\Users\Andreea Iacob\Source\Repos\icbandreea\music\MusicWebApp\obj\Debug\netcoreapp3.1\MusicWebApp.csprojAssemblyReference.cache

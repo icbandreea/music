@@ -38,6 +38,19 @@ namespace MusicWebApp.Controllers
         }
 
         [HttpGet]
+        [Route("", Name = "GetAllSongs")]
+        public IActionResult GetAllSongs()
+        {
+            var songEntities = _songUnit.Song.Find(a => a.Deleted == false || a.Deleted == null);
+            if (songEntities == null)
+            {
+                return NotFound();
+            }
+
+            return Ok(_mapper.Map<List<SongDTO>>(songEntities));
+        }
+
+        [HttpGet]
         [Route("details/{id}", Name = "GetSongDetails")]
         public IActionResult GetSongDetails(Guid id)
         {
@@ -52,7 +65,7 @@ namespace MusicWebApp.Controllers
 
         [Route("add", Name = "Add a new song")]
         [HttpPost]
-        public IActionResult AddBook([FromBody] SongDTO song)
+        public IActionResult AddSong([FromBody] SongDTO song)
         {
             var songEntity = _mapper.Map<Song>(song);
             _songUnit.Song.Add(songEntity);

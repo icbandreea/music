@@ -15,7 +15,6 @@ namespace MusicWebApp.Services.Repositories
             _context = context ?? throw new ArgumentNullException(nameof(context));
         }
 
-        //Aici nu inteleg de ce nu face legatura
         public Song GetSongDetails(Guid songId)
         {
             return _context.Songs

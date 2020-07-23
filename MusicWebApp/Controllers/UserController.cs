@@ -63,5 +63,21 @@ namespace MusicWebApp.Controllers
                 new { id = userEntity.ID },
                 _mapper.Map<UserDTO>(userEntity));
         }
+
+        [HttpPut]
+        [Route("{id}", Name = "DeleteUser")]
+        public IActionResult DeleteUser(Guid id)
+        {
+            var userEntity = _userUnit.Users.Get(id);
+            if (userEntity == null)
+            {
+                return NotFound();
+            }
+
+            userEntity.Deleted = true;
+            _userUnit.Complete();
+
+            return  Ok("User " + id + " was deleted.");
+        }
     }
 }
